@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RadioActivity">
+
+    <RadioGroup
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/radioNike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nike" />
+
+        <RadioButton
+            android:id="@+id/radioAdidas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adidas" />
+
+        <RadioButton
+            android:id="@+id/radioErke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Erke" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nike" />
+</LinearLayout>
